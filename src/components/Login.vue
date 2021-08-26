@@ -3,13 +3,15 @@
     <v-row
         align="center"
         justify="center"
+        class="mt-10"
     >
       <v-col
           cols="12"
           sm="8"
           md="4"
+          class="px-10"
       >
-        <v-card class="elevation-12 mt-10" >
+        <v-card class="elevation-12">
           <v-toolbar
               color="primary"
               dark
@@ -69,6 +71,7 @@
 
     }),
     mounted() {
+
     }
   }
 </script>
